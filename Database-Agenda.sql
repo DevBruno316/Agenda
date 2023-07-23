@@ -1,0 +1,13 @@
+CREATE DATABASE agenda;
+
+USE agenda;
+
+CREATE TABLE cliente(
+id INT NOT NULL AUTO_INCREMENT,
+nome VARCHAR(40) NOT NULL,
+Telefone VARCHAR (16) NOT NULL,
+descricao VARCHAR(256) NOT NULL,
+PRIMARY KEY(id)
+);
+
+

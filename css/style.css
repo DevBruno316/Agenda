@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+#main-title{
+    text-align: center;
+    margin: 15px 0 30px;
+}
+#delete-form{
+    display: inline-block;
+}
+.bold{
+    text-align: center;
+    margin: 15px 0 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+#bott{
+    margin-top: 10px;
+}
+
+#form-space{
+    margin-left: 30px;
+}
+
+
+/*HOME*/
+
+#contacts-table{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacts-table thead tr th{
+    color: white;
+    background-color: #007BFF;
+}
+.index-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 156px;
+    
+}
+#msg{
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+#empty-list-text{
+    text-align: center;
+}
+.actions {
+    text-align: right;
+    width: 150px;
+
+}
+.actions i{
+    font-size: 18px;
+    margin-right: 18px;
+}
+
+.check-icon{
+    color: #1E7E34;
+}
+.edit-icon{
+    color: #007BFF;
+}
+.delete-icon{
+    color: #BD2130;
+}
+.delete-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+img{
+    width: 50px;
+}
+
+
+/*SHOW*/
+#view-contact-container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#back-link-container{
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link{
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#back-link:hover{
+    color: #badbfd;
+    border: 1px solid #93bce7;
+    
+    text-decoration: none;
+
+}
+
+
+@media(max-width:480px){
+    header div .navbar-nav a #home-link{
+        display: none;
+    }
+}
+
+
